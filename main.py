@@ -77,7 +77,7 @@ class Me:
 
     def __init__(self):
         self.openai = OpenAI()
-        self.name = Tatiana Panteleeva"
+        self.name = "Tatiana Panteleeva"
         reader = PdfReader("me/linkedin.pdf")
         self.linkedin = ""
         for page in reader.pages:
@@ -120,6 +120,7 @@ If the user is engaging in discussion, try to steer them towards getting in touc
             if response.choices[0].finish_reason=="tool_calls":
                 message = response.choices[0].message
                 tool_calls = message.tool_calls
+                print(tool_calls)
                 results = self.handle_tool_call(tool_calls)
                 messages.append(message)
                 messages.extend(results)
