@@ -38,11 +38,18 @@ This will automatically create a virtual environment and install all dependencie
 
 ## Configuration
 
-Create a `.env` file in the project root with the following variables:
+1. Create a `.env` file in the project root with the following variables:
 
 OPENAI_API_KEY=your_openai_api_key
 PUSHOVER_TOKEN=your_pushover_token
 PUSHOVER_USER=your_pushover_user
+
+2. Set up your personal data:
+   - Create a `me` directory in the project root if it doesn't exist
+   - Export your LinkedIn profile as PDF and save it as `me/linkedin.pdf`
+   - Create a `me/summary.txt` file with a comprehensive summary of your background, skills, and experience
+   - The summary should be in plain text format and include key information about your career, education, and professional achievements
+
 
 ## Project Structure
 
