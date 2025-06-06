@@ -14,9 +14,6 @@ A personal AI agent system that creates an interactive chat interface to represe
 
 - Python 3.12 or higher
 - UV package manager
-```bash
-  curl -LsSf https://astral.sh/uv/install.sh | sh
-  ```
 - OpenAI API key
 - Pushover API credentials (for notifications)
 
@@ -27,8 +24,12 @@ A personal AI agent system that creates an interactive chat interface to represe
 git clone https://github.com/Tatuum/My_agents.git
 cd my_agents
 ```
+2. Install UV
+Follow the instructions here to install uv - I recommend using the Standalone Installer approach at the very top:
 
-2. Install dependencies and create virtual environment using UV:
+https://docs.astral.sh/uv/getting-started/installation/
+
+3. Install dependencies and create virtual environment using UV:
 ```bash
 uv sync
 ```
