@@ -25,6 +25,7 @@ git clone https://github.com/Tatuum/My_agents.git
 cd my_agents
 ```
 2. Install UV
+
 Follow the instructions here to install uv - I recommend using the Standalone Installer approach at the very top:
 
 https://docs.astral.sh/uv/getting-started/installation/
