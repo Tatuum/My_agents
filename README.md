@@ -40,11 +40,11 @@ This will automatically create a virtual environment and install all dependencie
 ## Configuration
 
 1. Create a `.env` file in the project root with the following variables:
-
+```bash
 OPENAI_API_KEY=your_openai_api_key
 PUSHOVER_TOKEN=your_pushover_token
 PUSHOVER_USER=your_pushover_user
-
+```
 2. Set up your personal data:
    - Create a `me` directory in the project root if it doesn't exist
    - Export your LinkedIn profile as PDF and save it as `me/linkedin.pdf`
